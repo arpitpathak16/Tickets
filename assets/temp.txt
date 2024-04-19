@@ -1,0 +1,43 @@
+// export default function App() {
+// const Drawer = createDrawerNavigator();
+// <HomeScreen/>;
+// return (
+// <NavigationContainer>
+//   <Stack.Navigator initialRouteName="Home">
+//     <Stack.Screen
+//       name="Home"
+//       component={HomeScreen}
+//       options={({ navigation }) => ({
+//         headerLeft: () => (
+//           <TouchableOpacity
+//             onPress={() => navigation.dispatch(DrawerActions.openDrawer())}>
+//             <View
+//               style={{
+//                 flexDirection: "row",
+//                 alignItems: "center",
+//                 marginRight: 5,
+//               }}>
+//               <FontAwesome name="bars" size={24} color="black" />
+//             </View>
+//           </TouchableOpacity>
+//         ),
+//         headerRight: () => (
+//           // <Text>SIGN IN</Text>
+//           <TouchableOpacity onPress={() => navigation.navigate("Login")}>
+//             <View
+//               style={{
+//                 flexDirection: "row",
+//                 alignItems: "center",
+//               }}>
+//               <Text style={{ marginRight: 8 }}>SIGN IN</Text>
+//               <FontAwesome name="user" size={24} color="black" />
+//             </View>
+//           </TouchableOpacity>
+//         ),
+//       })}
+//     />
+//     <Stack.Screen name="Login" component={Login} />
+//   </Stack.Navigator>
+// </NavigationContainer>
+// );
+// }
